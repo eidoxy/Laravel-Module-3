@@ -291,3 +291,35 @@ Ketikan code berikut pada `home.blade.php`:
 </html>
 ```
 
+Setelah membuat tampilan home dan semua tampilan data, selanjutnya kita akan membuat routernya agar kita bisa terhubung ke websitenya.
+Pergi ke folder routes/web.php lalu ketik code berikut:
+
+```
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', function () {
+    return view('home');
+});
+
+Route::get('/barang', function () {
+    return view('barang.dataBarang');
+});
+
+Route::get('/kategori', function () {
+    return view('kategori.dataKategori');
+});
+```
+
+Setelah membuat router, pastikan kalian telah mengaktifkan XAMPP dan server laravelnya.
+Untuk website yang telah kita buat akan memiliki tampilan seperti ini.
+
+*Tampilan home*
+![image](https://user-images.githubusercontent.com/79520394/183368162-85538fed-6d7d-4d78-a77e-1fcdabc39dec.png)
+
+*Tampilan data barang*
+![image](https://user-images.githubusercontent.com/79520394/183368359-068e9339-9df4-4467-b86e-18d671b9ab8b.png)
+
+*Tampilan data kategori*
+![image](https://user-images.githubusercontent.com/79520394/183368449-9c2e963c-43c1-4e81-b98a-ceb1f18a66c9.png)
