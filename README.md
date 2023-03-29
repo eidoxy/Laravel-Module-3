@@ -1,5 +1,5 @@
-###### Nama     : Adrian Sondang I.
-###### Kelas    : XII RPL-1
+###### Nama     : Adrian
+###### Kelas    : RPL-1
 ###### No Absen : 08
 
 # Modul 4
