@@ -1,7 +1,3 @@
-###### Nama     : Adrian
-###### Kelas    : RPL-1
-###### No Absen : 08
-
 # Modul 4
 ## View Blade Template
 
